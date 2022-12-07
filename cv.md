@@ -1,7 +1,7 @@
 
 # Yauheni Pushkin
 
-#### __Junior__ Frontend Developer
+#### Junior Frontend Developer
 
 ---
 
@@ -26,8 +26,29 @@
 ## Skills:
 
 
-	Today I know HTML, CSS and JS at a basic level. Recently completed preparatory online courses. I strive
-	to develop in this direction and want to become a real professional!
+	Today I know HTML, CSS and JS at a basic level. Recently completed preparatory online courses. I strive to develop in this 
+	direction and want to become a real professional!
+
+---
+
+## Code example:
+
+	KATA from CODEWARS: An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a 
+	function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. 
+	Ignore letter case.
+
+	```
+	function isIsogram(str){
+		let arrStr = str.split('');
+		for (let i = 0; i < arrStr.length; i++) {
+			for (let j = (i+1); j < arrStr.length; j++) {
+				if (arrStr[i].toLowerCase() == arrStr[j].toLowerCase()) {
+					return false
+				}
+			}
+		}	return true
+	}
+	```
 
 ---
 
@@ -35,6 +56,6 @@
 
 At the moment I know:
 
- * Russion
- * Belarussion
- * English
+ * Russion - Native
+ * Belarussion - Native
+ * English - B1

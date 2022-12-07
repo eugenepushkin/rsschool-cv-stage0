@@ -1,7 +1,7 @@
 
 # Yauheni Pushkin
 
-#### Junior Frontend Developer
+#### *Junior Frontend Developer*
 
 ---
 
@@ -37,7 +37,6 @@
 	function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. 
 	Ignore letter case.
 
-	```
 	function isIsogram(str){
 		let arrStr = str.split('');
 		for (let i = 0; i < arrStr.length; i++) {
@@ -48,8 +47,7 @@
 			}
 		}	return true
 	}
-	```
-
+	
 ---
 
 ## Languages:

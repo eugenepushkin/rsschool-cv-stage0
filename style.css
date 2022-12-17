@@ -126,10 +126,6 @@ main .container{
     font-size: 25px;
 }
 
-.skills {
-    margin-bottom: 10px;
-}
-
 .skills p {
     margin-left: 3%;
     margin-right: 3%;
@@ -170,4 +166,11 @@ footer .container {
 
 .contacts a:hover {
     color:rgb(64, 173, 173)
+}
+
+.pro {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 25px;
+    margin-bottom: 10px;
 }

@@ -14,9 +14,9 @@
     <header>
         <div class="container">
             <div class="wrapper">
-                <section class="photo">
+                <div class="photo">
                     <img src="img/me.jpg" alt="My photo" class="myPhoto">
-                </section>
+                </div>
                 <section class="me">
                     <h1 class="name">
                         <a href="#">Pushkin Yauheni</a>
@@ -56,7 +56,7 @@
                     </ul>
                 </section>
             </aside>
-            <section class="myInformation">
+            <div class="myInformation">
                 <article class="aboutMe">
                     <h2>About me</h2>
                     <p>Hi. My name is Yauheni. I am 22 years old and I work as a design engineer. I studied at the Faculty of Information Technology and Robotics at the Belarusian National Technical University. I have just started to study Ftont-End so I ask you not to judge strictly. Peace for everyone.</p>
@@ -65,15 +65,23 @@
                     <h2>Skills</h2>
                     <p>Today I know HTML, CSS and JS at a basic level. Recently completed preparatory online courses. I strive to develop in this direction and want to become a real professional!</p>
                 </article>
+                <article class="projects">
+                    <h2>
+                        My projects
+                    </h2>
+                    <p class="pro">
+                        Unfortunately, there are no examples of projects yet.
+                    </p>
+                </article>
                 <article class="codeEx">
-                    <h2>Code Example (form CodeWars)</h2>
-                    <section class="pre">
+                    <h2>Code Example (from CodeWars)</h2>
+                    <div class="pre">
                         <pre>
 
 function isIsogram(str){
     let arrStr = str.split('');
-    for (let i = 0; i < arrStr.length; i++) {
-        for (let j = (i+1); j < arrStr.length; j++) {
+    for (let i = 0; i &lt arrStr.length; i++) {
+        for (let j = (i+1); j &lt arrStr.length; j++) {
             if (arrStr[i].toLowerCase() == arrStr[j].toLowerCase()) {
                 return false
             }
@@ -81,9 +89,9 @@ function isIsogram(str){
     }	return true
 }
                         </pre>
-                    </section>
+                    </div>
                 </article>
-            </section>
+            </div>
         </div>
     </main>
     <footer>

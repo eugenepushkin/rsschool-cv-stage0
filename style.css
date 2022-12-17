@@ -119,3 +119,39 @@ main .container{
     margin-left: 5%;
 
 }
+
+.aboutMe p {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 25px;
+}
+
+.skills {
+    margin-bottom: 10px;
+}
+
+.skills p {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 25px;  
+}
+
+footer .container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(96, 96, 96);
+    display: flex;
+    justify-content: space-around;
+}
+
+.year {
+    font-size: 40px;
+}
+
+.github img {
+    height: 50px;
+}
+
+.link img {
+    height: 50px;
+}

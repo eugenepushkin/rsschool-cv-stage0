@@ -163,3 +163,11 @@ footer .container {
 .name a:hover {
     color:rgb(159, 183, 236)
 }
+
+.contacts a {
+    transition: .5s;
+}
+
+.contacts a:hover {
+    color:rgb(64, 173, 173)
+}

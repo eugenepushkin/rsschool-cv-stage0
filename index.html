@@ -80,8 +80,8 @@
 
 function isIsogram(str){
     let arrStr = str.split('');
-    for (let i = 0; i &lt arrStr.length; i++) {
-        for (let j = (i+1); j &lt arrStr.length; j++) {
+    for (let i = 0; i &lt; arrStr.length; i++) {
+        for (let j = (i+1); j &lt; arrStr.length; j++) {
             if (arrStr[i].toLowerCase() == arrStr[j].toLowerCase()) {
                 return false
             }

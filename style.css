@@ -148,10 +148,18 @@ footer .container {
     font-size: 40px;
 }
 
-.github img {
+.github img {   
     height: 50px;
 }
 
 .link img {
     height: 50px;
+}
+
+.name a {
+    transition: 2s;
+}
+
+.name a:hover {
+    color:rgb(159, 183, 236)
 }

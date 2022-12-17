@@ -1,1 +1,103 @@
-HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="wrapper">
+                <section class="photo">
+                    <img src="img/me.jpg" alt="My photo" class="myPhoto">
+                </section>
+                <section class="me">
+                    <h1 class="name">
+                        <a href="#">Pushkin Yauheni</a>
+                    </h1>
+                    <h3 class="job">
+                        Junior Front-End Developer
+                    </h3>
+                </section>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <aside class="aside">
+                <section class="contacts">
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li><a href="#"><b>GitHub:</b> <br>eugenepushkin</a></li>
+                        <li><a href="#"><b>Telegramm:</b> <br>Zhmenya777</a></li>
+                        <li><a href="mailto:eugene.pushckin@yandex.by"><b>Mail:</b> <br>eugene.pushckin@yandex.by</a></li>
+                        <li><a href="tel:+375295142412"><b>Telephone:</b> <br>+375295142412</a></li>
+                    </ul>
+                </section>
+                <section class="education">
+                    <h2>Education</h2>
+                    <p class="years">2017 - 2022</p>
+                    <p>
+                        <b>BNTU FITR</b>
+                    </p>
+                </section>
+                <section class="languages">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>Belarusian (Native)</li>
+                        <li>Russian (Native)</li>
+                        <li>English (B1)</li>
+                    </ul>
+                </section>
+            </aside>
+            <section class="myInformation">
+                <article class="aboutMe">
+                    <h2>About me</h2>
+                    <p>Hi. My name is Yauheni. I am 22 years old and I work as a design engineer. I studied at the Faculty of Information Technology and Robotics at the Belarusian National Technical University. I have just started to study Ftont-End so I ask you not to judge strictly. Peace for everyone.</p>
+                </article>
+                <article class="skills">
+                    <h2>Skills</h2>
+                    <p>Today I know HTML, CSS and JS at a basic level. Recently completed preparatory online courses. I strive to develop in this direction and want to become a real professional!</p>
+                </article>
+                <article class="codeEx">
+                    <h2>Code Example (form CodeWars)</h2>
+                    <section class="pre">
+                        <pre>
+
+function isIsogram(str){
+    let arrStr = str.split('');
+    for (let i = 0; i < arrStr.length; i++) {
+        for (let j = (i+1); j < arrStr.length; j++) {
+            if (arrStr[i].toLowerCase() == arrStr[j].toLowerCase()) {
+                return false
+            }
+        }
+    }	return true
+}
+                        </pre>
+                    </section>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <a href="https://github.com/eugenepushkin" class="github" target="_blank">
+                <img src="img/github.png" alt="GitHub img" class="git">
+            </a>
+            <p class="year">
+                2022
+            </p>
+            <a href="https://rs.school/js/" class="link" target="_blank">
+                <img src="img/rs_school_js.svg" alt="logo">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
